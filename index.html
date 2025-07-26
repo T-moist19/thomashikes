@@ -8,6 +8,8 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 <body>
+
+  <!-- Navigation -->
   <nav class="main-nav">
     <ul>
       <li><a href="index.html" class="active">Home</a></li>
@@ -18,6 +20,7 @@
     </ul>
   </nav>
 
+  <!-- Hero -->
   <header class="hero">
     <div class="hero-text" data-aos="fade-up">
       <h1>Thomas Moision</h1>
@@ -26,6 +29,7 @@
     </div>
   </header>
 
+  <!-- Trail Overview -->
   <section class="trail-section" data-aos="fade-up">
     <h2>The Tahoe Rim Trail</h2>
     <p>170 miles of challenge and beauty circling Lake Tahoe.</p>
@@ -41,6 +45,50 @@
     </div>
   </section>
 
+  <!-- Mileage Breakdown Section -->
+  <section class="mileage-section" data-aos="fade-up">
+    <h2>Trail Mileage Breakdown</h2>
+    <p>Based on an average of <strong>21 miles per day</strong>, this 170.7-mile hike will take approximately:</p>
+    <h3>~8.1 days</h3>
+
+    <div class="mileage-table-container">
+      <table class="mileage-table">
+        <thead>
+          <tr>
+            <th>Segment</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Miles</th>
+            <th>Cumulative</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Barker Pass</td><td>Tahoe City</td><td>16.7</td><td>16.7</td></tr>
+          <tr><td>2</td><td>Tahoe City</td><td>Brockway Summit</td><td>19.1</td><td>35.8</td></tr>
+          <tr><td>3</td><td>Brockway Summit</td><td>Mt. Rose</td><td>20.3</td><td>56.1</td></tr>
+          <tr><td>4</td><td>Tahoe Meadows</td><td>Spooner Summit</td><td>23.1</td><td>79.2</td></tr>
+          <tr><td>5</td><td>Spooner Summit</td><td>Kingsbury Grade</td><td>19.4</td><td>98.6</td></tr>
+          <tr><td>6</td><td>Kingsbury Grade</td><td>Big Meadow</td><td>23.7</td><td>122.3</td></tr>
+          <tr><td>7</td><td>Big Meadow</td><td>Echo Summit</td><td>15.7</td><td>138.0</td></tr>
+          <tr><td>8</td><td>Echo Summit</td><td>Barker Pass</td><td>32.7</td><td>170.7</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="map-container" style="margin-top: 2rem;">
+      <h3>Interactive Map</h3>
+      <iframe
+        src="https://www.google.com/maps/d/u/0/embed?mid=1P6IwLVOrXWpF5F-CnL2HgKuHYDoQWvY&ehbc=2E312F"
+        width="100%"
+        height="480"
+        style="border:0; border-radius: 8px;"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer class="footer" data-aos="fade-in">
     <p>
       Contact:
@@ -53,6 +101,7 @@
     </p>
   </footer>
 
+  <!-- Scripts -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="script.js"></script>
 </body>
